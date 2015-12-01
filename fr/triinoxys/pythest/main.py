@@ -42,6 +42,7 @@ while redo == 1:
         print("Dans quel ordre ?")
         order = int(input("1.Croissant \n2.Decroissant\n"))
         
+        print("\nTapez q pour quitter.")
         nbr = int(input("Premier nombre: "))
         nbrList.append(nbr)
         
